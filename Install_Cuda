@@ -1,0 +1,20 @@
+1.Download driver file form the link
+ https://www.nvidia.com/Download/index.aspx?lang=en-us
+2.Make environment 
+ sudo apt-get update
+ sudo apt-get install build-essential
+ lsmod | grep nouveau
+ sudo vi /etc/modprobe.d/blacklist-nouveau.conf
+ -> type below code 
+    blacklist nouveau
+    options nouveau modeset = 0
+ sudo update-initramfs -u
+ sudo reboot
+3. Register Ubuntu driver 
+   sudo addd-apt-repository ppa:graphics-drivers/ppa
+   sudo apt update
+   sudo ubuntu-drivers autoinstall
+   sudo reboot 
+4. type 'nvidia-smi' and check Nvidia dirver 
+5. Install cuda 
+   sudo apt install nvidia-cuda-toolkit gcc-6
