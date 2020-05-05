@@ -1,0 +1,21 @@
+- Shrink space for install Ubuntu( = partitioning )
+  1. Start 'Disk Maangement' tool by press Win + R key and type 'diskmgmt.msc' 
+  2. Right click on the 'C' driver and click shrink volume 
+  3. Window will appear showing up the best possible size 
+  4. Adjust the size and click on 'Shrink'
+  
+- Reboot while put 'Ubuntu USB Memory' 
+  1. Press 'Del' key for boot-up menu
+  2. Once the boot-up menu appears, change the Boot priority order 
+     USB is the first one 
+  3. Save and get out from bios, can see Install Ubuntu message 
+  4. Select 'Install Ubuntu' and press enter 
+  
+- Install Ubuntu
+  1. Select the language and select some option, then press continue
+  2. Choose something else option and press continue, when Installation type appears
+  3. Allocate partition
+     click free space, don't change space volume and change parition type to logic and type '/' in mount location
+  4. Click continue 
+  5. Create username, password when 'Who are you' message appears
+  6. Click continue! 
