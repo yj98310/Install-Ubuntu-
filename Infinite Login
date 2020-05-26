@@ -1,0 +1,14 @@
+Enter to the TTY mode, press ctrl + alt + f1 
+
+Method1
+1. sudo apt-get remove --purge -y lightdm
+2. sudo apt-get autoremove --purge -y
+3. sudo apt-get install lightdm -y
+4. sudo systemctl start lightdm.service
+5. sudo reboot
+
+Method2
+1. sudo ubuntu-drivers list
+2. sudo ubuntu-drivers autoinstall
+3. sudo systemctl restart lightdm.servie
+4. sudo reboot
